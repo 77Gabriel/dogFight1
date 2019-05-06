@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00a8ce4d-85da-4d6f-a7fe-a0a0f56c918b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/jpu2016/dogfight/model/Cloud.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jpu2016/dogfight/model/Direction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jpu2016/dogfight/model/DogfightModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jpu2016/dogfight/model/IDogfightModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jpu2016/dogfight/model/IMobile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jpu2016/dogfight/model/Missile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jpu2016/dogfight/model/Mobile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jpu2016/dogfight/model/Plane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jpu2016/dogfight/model/Position.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jpu2016/dogfight/model/Sky.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jpu2016/dogfight/model/Dimension.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jpu2016/dogfight/model/Dimension.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jpu2016/dogfight/model/IArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jpu2016/dogfight/model/IArea.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jpu2016/dogfight/model/DogfightModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jpu2016/dogfight/model/DogfightModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jpu2016/dogfight/model/IDogfightModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jpu2016/dogfight/model/IDogfightModel.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -91,23 +81,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/jpu2016/dogfight/model/IDogfightModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="238">
+              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/jpu2016/dogfight/model/DogfightModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+            <state relative-caret-position="297">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="e#150#151#0" expanded="true" />
                 <element signature="e#181#182#0" expanded="true" />
+                <element signature="e#413#414#0" expanded="true" />
+                <element signature="e#446#447#0" expanded="true" />
+                <element signature="e#497#498#0" expanded="true" />
+                <element signature="e#545#546#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -147,9 +141,9 @@
         <option value="$PROJECT_DIR$/src/jpu2016/dogfight/model/Dimension.java" />
         <option value="$PROJECT_DIR$/src/jpu2016/dogfight/model/Direction.java" />
         <option value="$PROJECT_DIR$/src/jpu2016/dogfight/model/Sky.java" />
-        <option value="$PROJECT_DIR$/src/jpu2016/dogfight/model/IDogfightModel.java" />
         <option value="$PROJECT_DIR$/src/jpu2016/dogfight/model/IArea.java" />
         <option value="$PROJECT_DIR$/src/jpu2016/dogfight/model/DogfightModel.java" />
+        <option value="$PROJECT_DIR$/src/jpu2016/dogfight/model/IDogfightModel.java" />
       </list>
     </option>
   </component>
@@ -222,6 +216,16 @@
     </option>
   </component>
   <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="dogFight1" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
@@ -261,11 +265,25 @@
       <option name="project" value="LOCAL" />
       <updated>1557144712622</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="+ Ajout des classes du package model">
+      <created>1557149424957</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1557149424957</updated>
+    </task>
+    <task id="LOCAL-00005" summary="+ Ajout des classes du package model">
+      <created>1557149430309</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1557149430309</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5188000" />
+    <option name="totallyTimeSpent" value="6226000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="762" y="0" width="781" height="830" extended-state="0" />
@@ -280,7 +298,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3323782" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49930653" visible="true" weight="0.26217765" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -288,7 +306,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5006935" side_tool="true" weight="0.33094555" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -308,7 +326,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial realise" />
     <MESSAGE value="+ Initial realise" />
-    <option name="LAST_COMMIT_MESSAGE" value="+ Initial realise" />
+    <MESSAGE value="+ Ajout des classes du package model" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ Ajout des classes du package model" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java">
@@ -394,13 +413,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jpu2016/dogfight/model/IDogfightModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/jpu2016/dogfight/model/Missile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -417,12 +429,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/jpu2016/dogfight/model/DogfightModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        <state relative-caret-position="297">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="e#150#151#0" expanded="true" />
             <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#497#498#0" expanded="true" />
+            <element signature="e#545#546#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jpu2016/dogfight/model/IDogfightModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
         </state>
       </provider>
     </entry>
