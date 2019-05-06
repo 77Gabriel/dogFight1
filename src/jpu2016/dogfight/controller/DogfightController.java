@@ -1,8 +1,10 @@
 package jpu2016.dogfight.controller;
 
+import jpu2016.dogfight.model.IDogfightModel;
+
 public class DogfightController implements IOrderPerformer {
 
-
+    private IDogfightModel dogfightModel;
 
 
     @Override
@@ -10,7 +12,8 @@ public class DogfightController implements IOrderPerformer {
 
     }
 
-    public DogfightController(IDogfightModel dogfightModel){
+    public DogfightController(IDogfightModel dogfightModel) {
+        this.dogfightModel = dogfightModel;
     }
 
     public void play(){
@@ -22,7 +25,6 @@ public class DogfightController implements IOrderPerformer {
     }
 
     public void LauchMissile(int player){
-        this.player = player;
 
     }
 
