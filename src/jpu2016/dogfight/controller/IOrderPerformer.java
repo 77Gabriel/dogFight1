@@ -1,6 +1,6 @@
 package jpu2016.dogfight.controller;
 
-interface IOrderPerformer {
+public interface IOrderPerformer {
 
     void orderPerformer(UserOrder userOrder);
 
