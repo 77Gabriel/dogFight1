@@ -3,7 +3,7 @@ package jpu2016.dogfight.model;
 import java.awt.*;
 import java.awt.geom.Area;
 
-public class Mobile {
+abstract class Mobile implements IMobile {
 
     private int speed;
 
