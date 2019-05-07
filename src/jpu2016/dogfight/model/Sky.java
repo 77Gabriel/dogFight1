@@ -16,4 +16,14 @@ public class Sky implements IArea {
     public Image getImage(){
         return this.getImage();
     }
+
+    @Override
+    public int getWidth() {
+        return 0;
+    }
+
+    @Override
+    public int getHeight() {
+        return 0;
+    }
 }
