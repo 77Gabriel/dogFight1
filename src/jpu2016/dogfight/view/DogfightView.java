@@ -6,7 +6,7 @@ import jpu2016.dogfight.model.DogfightModel;
 import jpu2016.dogfight.model.IDogfightModel;
 import java.util.Observable;
 
-public abstract class DogfightView implements IViewSystem {
+public class DogfightView implements IViewSystem {
 
     public DogfightView(DogfightController dogfightController, DogfightModel dogfightModel) {
 
@@ -17,15 +17,17 @@ public abstract class DogfightView implements IViewSystem {
 
     }
 
+    @Override
+    public void displayMessage(String message) {
+
+    }
+
     public void closeAll() {
 
     }
 
     public DogfightView(IOrderPerformer orderPerformer, IDogfightModel dogfightModel,
                          Observable observer){
-
-    }
-    public void displayMessage(String message){
 
     }
 

@@ -10,7 +10,7 @@ public class GamePanel {
 
     }
 
-    public update(Observable observer){
+    public void update(Observable observer){
 
     }
 
