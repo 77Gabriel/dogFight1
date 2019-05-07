@@ -9,13 +9,12 @@ public class Missile {
     private int distanceTraveled = 0;
 
     public Missile(Direction direction, Dimension dimension){
-        return;
     }
 
-    public int getWidthWithADirection(Direction direction){
+    public static int getWidthWithADirection(Direction direction){
         return getWidthWithADirection(direction);
     }
-    public int getHeightWithADirection(Direction direction){
+    public static int getHeightWithADirection(Direction direction){
         return getHeightWithADirection(direction);
     }
     public void move(){

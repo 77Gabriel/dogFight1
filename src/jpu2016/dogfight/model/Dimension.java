@@ -5,11 +5,7 @@ public class Dimension {
     private int width;
     private int height;
 
-    public void Dimension(int width, int height){
-
-    }
-
-    public void Dimension(Dimension dimension){
+    public Dimension(int width, int height){
 
     }
 

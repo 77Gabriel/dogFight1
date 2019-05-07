@@ -4,18 +4,18 @@ import java.awt.*;
 
 public interface IMobile {
 
-    public Direction getDirection();
-    public void setDirection(Direction direction);
-    public Point getPosition();
-    public Dimension getDimension();
-    public int getWidth();
-    public int getHeight();
-    public int getSpeed();
-    public Image getImage();
-    public void move();
-    public void placeInArea(IArea area);
-    public boolean isPlayer(int player);
-    public void setDogfightModel(DogfightModel dogfightModel);
-    public boolean hit();
-    public boolean isWeapon();
+    Direction getDirection();
+    void setDirection(Direction direction);
+     Point getPosition();
+     Dimension getDimension();
+     int getWidth();
+     int getHeight();
+     int getSpeed();
+     Image getImage();
+     void move();
+     void placeInArea(IArea area);
+     boolean isPlayer(int player);
+     void setDogfightModel(DogfightModel dogfightModel);
+     boolean hit();
+     boolean isWeapon();
 }
