@@ -1,10 +1,10 @@
 package jpu2016.dogfight.model;
 
 public class Cloud {
-    private int SPEED = 1;
-    private int WIDTH = 300;
-    private int HEIGHT = 150;
-    private String IMAGE = "cloud";
+    private static int SPEED = 1;
+    private static int WIDTH = 300;
+    private static int HEIGHT = 150;
+    private static String IMAGE = "cloud";
 
     public Cloud(Direction direction, Dimension dimension){
 
