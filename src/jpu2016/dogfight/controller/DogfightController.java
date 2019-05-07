@@ -5,8 +5,6 @@ import jpu2016.dogfight.view.IViewSystem;
 
 public class DogfightController implements IOrderPerformer {
 
-    private IDogfightModel dogfightModel;
-
 
     @Override
     public void orderPerformer(UserOrder userOrder) {
@@ -14,7 +12,7 @@ public class DogfightController implements IOrderPerformer {
     }
 
     public DogfightController(IDogfightModel dogfightModel) {
-        this.dogfightModel = dogfightModel;
+
     }
 
     public void play(){

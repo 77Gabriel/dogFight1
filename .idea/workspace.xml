@@ -3,14 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="00a8ce4d-85da-4d6f-a7fe-a0a0f56c918b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/jpu2016/dogfight/controller/DogfightController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jpu2016/dogfight/controller/DogfightController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jpu2016/dogfight/controller/IOrderPerformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jpu2016/dogfight/controller/IOrderPerformer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jpu2016/dogfight/gameframe/GameFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jpu2016/dogfight/gameframe/GameFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jpu2016/dogfight/gameframe/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jpu2016/dogfight/gameframe/GamePanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jpu2016/dogfight/gameframe/IEventPerformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jpu2016/dogfight/gameframe/IEventPerformer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jpu2016/dogfight/gameframe/IGraphicsBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jpu2016/dogfight/gameframe/IGraphicsBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/jpu2016/dogfight/view/DogfightView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jpu2016/dogfight/view/DogfightView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jpu2016/dogfight/view/EventPerfomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jpu2016/dogfight/view/EventPerfomer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/jpu2016/dogfight/view/GraphicsBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jpu2016/dogfight/view/GraphicsBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/jpu2016/dogfight/view/IViewSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jpu2016/dogfight/view/IViewSystem.java" afterDir="false" />
     </list>
@@ -27,10 +22,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/jpu2016/dogfight/view/IViewSystem.java">
+        <entry file="file://$PROJECT_DIR$/src/jpu2016/dogfight/view/DogfightView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="527">
+              <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -38,22 +36,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/jpu2016/dogfight/controller/DogfightController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#327#328#0" expanded="true" />
-                <element signature="e#377#378#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/jpu2016/dogfight/gameframe/GameFrame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="204">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,12 +46,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/jpu2016/dogfight/gameframe/GamePanel.java">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="255">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/jpu2016/dogfight/view/GraphicsBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="517">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#532#533#0" expanded="true" />
+                <element signature="e#556#557#0" expanded="true" />
+                <element signature="e#591#592#0" expanded="true" />
+                <element signature="e#615#616#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -77,7 +77,7 @@
         <entry file="file://$PROJECT_DIR$/src/jpu2016/dogfight/gameframe/IEventPerformer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -85,13 +85,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/jpu2016/dogfight/gameframe/IGraphicsBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="204">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#247#248#0" expanded="true" />
-                <element signature="e#270#271#0" expanded="true" />
-                <element signature="e#297#298#0" expanded="true" />
+                <element signature="e#296#297#0" expanded="true" />
                 <element signature="e#321#322#0" expanded="true" />
               </folding>
             </state>
@@ -101,37 +99,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/jpu2016/dogfight/view/EventPerfomer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+            <state relative-caret-position="153">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#405#406#0" expanded="true" />
-                <element signature="e#446#447#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/jpu2016/dogfight/view/DogfightView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/jpu2016/dogfight/view/GraphicsBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#625#626#0" expanded="true" />
-                <element signature="e#649#650#0" expanded="true" />
-                <element signature="e#688#689#0" expanded="true" />
-                <element signature="e#712#713#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -153,7 +124,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/jpu2016/dogfight/model/Dimension.java" />
         <option value="$PROJECT_DIR$/src/jpu2016/dogfight/model/Direction.java" />
         <option value="$PROJECT_DIR$/src/jpu2016/dogfight/model/Sky.java" />
@@ -165,14 +135,15 @@
         <option value="$PROJECT_DIR$/src/jpu2016/dogfight/model/Mobile.java" />
         <option value="$PROJECT_DIR$/src/jpu2016/dogfight/model/IMobile.java" />
         <option value="$PROJECT_DIR$/src/jpu2016/dogfight/view/EventPerfomer.java" />
-        <option value="$PROJECT_DIR$/src/jpu2016/dogfight/view/DogfightView.java" />
-        <option value="$PROJECT_DIR$/src/jpu2016/dogfight/view/GraphicsBuilder.java" />
-        <option value="$PROJECT_DIR$/src/jpu2016/dogfight/view/IViewSystem.java" />
-        <option value="$PROJECT_DIR$/src/jpu2016/dogfight/controller/DogfightController.java" />
         <option value="$PROJECT_DIR$/src/jpu2016/dogfight/gameframe/GamePanel.java" />
         <option value="$PROJECT_DIR$/src/jpu2016/dogfight/gameframe/IEventPerformer.java" />
         <option value="$PROJECT_DIR$/src/jpu2016/dogfight/gameframe/IGraphicsBuilder.java" />
         <option value="$PROJECT_DIR$/src/jpu2016/dogfight/gameframe/GameFrame.java" />
+        <option value="$PROJECT_DIR$/src/jpu2016/dogfight/view/IViewSystem.java" />
+        <option value="$PROJECT_DIR$/src/jpu2016/dogfight/controller/DogfightController.java" />
+        <option value="$PROJECT_DIR$/src/jpu2016/dogfight/view/DogfightView.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/jpu2016/dogfight/view/GraphicsBuilder.java" />
       </list>
     </option>
   </component>
@@ -190,7 +161,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -214,26 +184,13 @@
               <item name="dogFight1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="dogfight" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dogFight1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dogFight1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="dogfight" type="462c0819:PsiDirectoryNode" />
-              <item name="gameframe" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dogFight1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dogFight1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="dogfight" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -265,6 +222,8 @@
       <updated>1557143930505</updated>
       <workItem from="1557143934511" duration="1485000" />
       <workItem from="1557164706131" duration="1299000" />
+      <workItem from="1557211499505" duration="342000" />
+      <workItem from="1557217219909" duration="3089000" />
     </task>
     <task id="LOCAL-00001" summary="Initial realise">
       <created>1557144039977</created>
@@ -315,16 +274,24 @@
       <option name="project" value="LOCAL" />
       <updated>1557154670748</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="interfaces, controleurs, classes de View">
+      <created>1557182403021</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1557182403021</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11216000" />
+    <option name="totallyTimeSpent" value="14967000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="762" y="0" width="781" height="830" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26907074" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2857143" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -355,7 +322,7 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26907074" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2857143" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -395,7 +362,8 @@
     <MESSAGE value="+ Ajout des classes du package model" />
     <MESSAGE value="Classes + interfaces + Get/Set" />
     <MESSAGE value="+ Classe Missile" />
-    <option name="LAST_COMMIT_MESSAGE" value="+ Classe Missile" />
+    <MESSAGE value="interfaces, controleurs, classes de View" />
+    <option name="LAST_COMMIT_MESSAGE" value="interfaces, controleurs, classes de View" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/jpu2016/gameframe/IEventPerformer.java" />
@@ -499,17 +467,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="4" selection-end-column="5" />
-          <folding>
-            <element signature="e#64#65#0" expanded="true" />
-            <element signature="e#118#119#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Static.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -531,69 +488,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jpu2016/dogfight/controller/IUserOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jpu2016/dogfight/view/DogfightView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jpu2016/dogfight/view/EventPerfomer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#405#406#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jpu2016/dogfight/view/GraphicsBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#625#626#0" expanded="true" />
-            <element signature="e#649#650#0" expanded="true" />
-            <element signature="e#688#689#0" expanded="true" />
-            <element signature="e#712#713#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/jpu2016/dogfight/view/IViewSystem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="34">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jpu2016/dogfight/controller/DogfightController.java">
+    <entry file="file://$PROJECT_DIR$/src/jpu2016/dogfight/controller/UserOrder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
-            <element signature="e#377#378#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/jpu2016/dogfight/gameframe/GamePanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -603,19 +515,17 @@
     <entry file="file://$PROJECT_DIR$/src/jpu2016/dogfight/gameframe/IEventPerformer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/jpu2016/dogfight/gameframe/IGraphicsBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="204">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#247#248#0" expanded="true" />
-            <element signature="e#270#271#0" expanded="true" />
-            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
             <element signature="e#321#322#0" expanded="true" />
           </folding>
         </state>
@@ -623,10 +533,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/jpu2016/dogfight/gameframe/GameFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jpu2016/dogfight/controller/IUserOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jpu2016/dogfight/controller/DogfightController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jpu2016/dogfight/view/EventPerfomer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jpu2016/dogfight/view/DogfightView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jpu2016/dogfight/view/GraphicsBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#532#533#0" expanded="true" />
+            <element signature="e#556#557#0" expanded="true" />
+            <element signature="e#591#592#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
           </folding>
         </state>
       </provider>
